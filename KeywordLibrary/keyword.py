@@ -296,3 +296,12 @@ class GenericMethods(object):
             logging.error("Failed to handle the alert.")
             message = self.template.format(type(err).__name__, err.args)
             raise type(err)(message)
+
+    def find_elements(self, locator):
+        try:
+            elements = self.driver.find_elements(*locator)
+            return elements
+        except Exception as e:
+            logging.error(f"Failed to find elements with locator: {locator}")
+            message = self.template.format(type(e).__name__, e.args)
+            raise type(e)(message)
