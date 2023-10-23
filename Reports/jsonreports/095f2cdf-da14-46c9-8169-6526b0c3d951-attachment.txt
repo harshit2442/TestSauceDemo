@@ -1,0 +1,27 @@
+[32mINFO    [0m root:conftest.py:28 
+
+=====starting test(test_add_item_to_the_cart_from_product[chrome-standard_user-secret_sauce])================
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw0
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 There is no [win64] chromedriver "118.0.5993.89" for browser google-chrome "118.0.5993.89" in cache
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 WebDriver version 118.0.5993.70 selected
+[32mINFO    [0m WDM:logger.py:11 Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/118.0.5993.70/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/118.0.5993.70/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 Driver downloading response is 200
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\HARSHIT\.wdm\gw0\drivers\chromedriver\win64\118.0.5993.89]
+[32mINFO    [0m root:keyword.py:49 --------Navigated to : https://www.saucedemo.com/
+[1m[31mERROR   [0m root:keyword.py:62 ---------Element is not present: xpath//+[text()='Accept all']
+[32mINFO    [0m root:SauceDemoHome_Page.py:38 Navigated successfully to : https://www.saucedemo.com/
+[32mINFO    [0m root:keyword.py:69 Screenshot taken and attached to Allure report.
+[32mINFO    [0m root:SauceDemoHome_Page.py:47 Logged in successfully
+[32mINFO    [0m root:keyword.py:69 Screenshot taken and attached to Allure report.
+[1m[31mERROR   [0m root:keyword.py:81 Element not found: ('xpath', "//*[@id='shopping_cart_container']/a/span")
+[32mINFO    [0m root:keyword.py:252 Element ('xpath', "//*[@id='shopping_cart_container']/a/span") is hidden.
+[32mINFO    [0m root:SauceDemoProduct_Page.py:31 Cart is empty
+[32mINFO    [0m root:keyword.py:69 Screenshot taken and attached to Allure report.
+[32mINFO    [0m root:keyword.py:69 Screenshot taken and attached to Allure report.
+[32mINFO    [0m root:keyword.py:69 Screenshot taken and attached to Allure report.
